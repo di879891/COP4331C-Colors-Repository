@@ -1,0 +1,16 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Apache / server configs
+.htaccess
+
+# Environment / config
+.env
+config.php
+
+# Logs
+*.log
+
+# Node (if used)
+node_modules/
