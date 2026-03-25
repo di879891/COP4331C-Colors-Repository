@@ -1,0 +1,13 @@
+@startuml
+actor User
+
+rectangle "Color App" {
+User --> (Login)
+(verify login)
+User --> (Add Color)
+User --> (Search Colors)
+}
+
+(Search Colors) --> (View Results)
+
+@enduml
