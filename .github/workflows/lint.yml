@@ -21,12 +21,16 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: Public
 
       - name: Run HTML lint
         run: npx htmlhint "**/*.html"
+        working-directory: Public
 
       - name: Run CSS lint
         run: npx stylelint "**/*.css"
+        working-directory: Public
 
       - name: Run JS lint
         run: npx eslint "**/*.js"
+        working-directory: Public
